@@ -4,7 +4,7 @@
     {
         static async Task Main(string[] args)
         {
-            await new Performances.SwitchDefault().SwitchDefaultBench();
+            Events.EventBasics.DoEmptyEvent();
         }
     }
 }
