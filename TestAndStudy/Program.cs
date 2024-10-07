@@ -4,7 +4,7 @@
     {
         static async Task Main(string[] args)
         {
-            Events.EventBasics.DoEmptyEvent();
+            Inheritances.Overrides.Casting();
         }
     }
 }
